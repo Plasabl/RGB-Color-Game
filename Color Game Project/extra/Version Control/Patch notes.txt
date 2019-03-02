@@ -1,0 +1,29 @@
+This file contains progress and changes in the project
+
+The color game project
+
+
+Version 1.0.1 								16-17.2.2019
+
+ - Different color themes for different modes
+ - Better organization of goals
+ - Clearing the code a little
+ - Better, softer theme colors
+ - Transition time made betters
+ - BackUp files changed to Version Control
+ - Improved Variables
+     numSquares to numberOfSquares
+
+
+Version 1.0.2									18.2.2019
+
+ - Further adjustment on easy mode's color
+ - More ideas and cleaning of code
+
+ side note  < Combined 661 lines of code, including notes, and such >
+
+ - Fully fixed semicolons							(21.2.2019)
+ - Changed var's to let's and const's
+ - setup function (just wrapped some code)
+   //Anonymous functions replased by arrow functions//   doesnt work
+ - Nicer variable order

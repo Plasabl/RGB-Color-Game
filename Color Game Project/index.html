@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/RgbTyyli.css">
+</head>
+<body>
+	<header>
+		<h1>
+			THE GREAT
+			<br>
+			<span id="colorDisplay">RGB</span>
+			<br>
+			COLOR GAME
+		</h1>
+	</header>
+
+	<div id="stripe">
+		<span id="stripeContent">
+			<p class="uppercase">Wins: <span id="winCounter">0</span></p>
+			<p class="uppercase">Autoplay</p>
+			<input id="autoplay" type="checkbox">
+			<button onmouseover="mouseOver(0)" onmouseout="mouseOut(0)" class="btrBtn" id="reset">New colors</button>
+			<span id="message"></span>
+			<span id="modes">
+				<button onmouseover="mouseOver(1)" onmouseout="mouseOut(1)" class="mode btrBtn" >Easy</button>
+				<button onmouseover="mouseOver(2)" onmouseout="mouseOut(2)" class="selected mode btrBtn" >Medium</button>
+				<button onmouseover="mouseOver(3)" onmouseout="mouseOut(3)" class="mode btrBtn" >Hard</button>
+				<button onmouseover="mouseOver(4)" onmouseout="mouseOut(4)" class="mode btrBtn" >Insane</button>
+			</span>
+			<button onmouseover="mouseOver()" onmouseout="mouseOut()" class="btrBtn selected" id="disco">Disco Time!</button>
+		</span>
+	</div>
+
+	<div class="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+
+<script type="text/javascript" src="assets/js/lib/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="assets/js/RgbJava.js"></script>
+</body>
+</html>
